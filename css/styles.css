@@ -24,7 +24,8 @@ h1 {
 }
 
 .navbar {
-    padding: 0 0 4.5rem; /* haut | horizontal | bas */
+    padding: 0 0 4.5rem;
+    /* haut | horizontal | bas */
 }
 
 .navbar-brand {
@@ -88,7 +89,7 @@ h1 {
 
 .card-body {
     transition-delay: 0.2s;
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 .card {
@@ -102,7 +103,7 @@ h1 {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
     color: #8f8f8f;
 }
-  
+
 .blackout {
     background-color: #000000;
     color: #000000;
@@ -126,12 +127,12 @@ h1 {
     margin: 0 !important;
 }
 
-.blackout.card.card-img-top {
-    display: none;
-    text-align: center;
+.bg-btn {
+    background-color: #000000;
+    color: #ffffff;
 }
 
-.bg-btn {
+.bg-btn:hover {
     background-color: #000000;
     color: #ffffff;
 }
@@ -139,10 +140,6 @@ h1 {
 .bg-btn-contact {
     background-color: #ff4c68;
     color: #ffffff;
-}
-
-.blackout.margin-dog {
-    margin: 0 !important;
 }
 
 .blackout.form-contact input[type="email"] {
@@ -157,12 +154,6 @@ h1 {
     border-color: #000000;
 }
 
-.blackout.btn.btn-outline-light {
-    background-color: #000000;
-    color: #000000;
-}
-
 .hidden {
     display: none;
-  }
-  
+}

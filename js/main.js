@@ -54,7 +54,7 @@ function dogName() {
 // });
 
 function toggleBlackout() {
-  var elements = document.querySelectorAll('body *:not(button)');
+  var elements = document.querySelectorAll('html *:not(button)');
   for (var i = 0; i < elements.length; i++) {
     elements[i].classList.toggle('blackout');
   }
@@ -67,7 +67,7 @@ function toggleBlackout() {
     buttons[i].classList.toggle('hidden');
   }
   var images = document.querySelectorAll('.card');
-  console.log(images); 
+  console.log(images);
   for (var i = 0; i < images.length; i++) {
     images[i].classList.toggle('hidden');
   }
