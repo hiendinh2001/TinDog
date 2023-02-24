@@ -23,7 +23,6 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function() {
-        // https://dashboard.emailjs.com/admin/account
         emailjs.init('4OCckJamSqQjltoRm');
     })();
   </script>
@@ -31,9 +30,7 @@
       window.onload = function() {
           document.getElementById('contact-form').addEventListener('submit', function(event) {
               event.preventDefault();
-              // generate a five digit number for the contact_number variable
               this.contact_number.value = Math.random() * 100000 | 0;
-              // these IDs from the previous steps
               emailjs.sendForm("service_3zyprwt","template_398p23p", this)
                   .then(function() {
                       console.log('SUCCESS!');
@@ -72,38 +69,40 @@
               </ul>
             </div>
           </nav>
-          <div class="row justify-content-center">
+          <!-- <div class="row justify-content-center">
             <div class="col-lg-4 mb-4">
                 <div class="card p-2">
                 <img onmouseover="dogName()" class="card-img-top w-100" src="https://www.hdnicewallpapers.com/Walls/Big/Dog/Red_Dog_5K_Wallpaper.jpg" alt="Red Dog 5K Wallpaper">
                 </div>
             </div>
-        </div>
-        <h2 class="text-center font-weight-bold my-5">Contact form</h2>
+        </div> -->
+          <div class="container-xl container-form mb-5">
+        <h2 class="text-center font-weight-bold py-5">Contact form</h2>
           <div class="row justify-content-center mt-4">
-            <div class="col-8">
+            <div class="col-9">
               <form id="contact-form">
                 <input type="hidden" name="contact_number">
                 <div class="row">
                   <div class="col-md-6">
                     <label>Name</label>
-                    <input type="text" name="user_name" class="form-control mb-3">
+                    <input type="text" name="user_name" class="form-control mb-4">
                   </div>
                   <div class="col-md-6">
                     <label>Email</label>
-                    <input type="email" name="user_email" class="form-control mb-3">
+                    <input type="email" name="user_email" class="form-control mb-4">
                   </div>
                 </div>
                 <label>Object</label>
-                <input type="text" name="object" class="form-control mb-3">
+                <input type="text" name="object" class="form-control mb-4">
                 <label>Message</label>
-                <textarea name="message" class="form-control mb-3"></textarea>
+                <textarea name="message" class="form-control mb-4"></textarea>
                 <div class="text-center">
                 <button type="submit" class="btn btn-outline-light btn-lg download-button" style="background-color: #ff4c68">Submit</button>
               </div>
             </form>
           </div>
           </div>
+        </div>
     </div>
 
   </section>
