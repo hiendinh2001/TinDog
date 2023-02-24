@@ -44,6 +44,9 @@
       document.getElementById('contact-form').addEventListener('submit', function (event) {
         event.preventDefault();
         this.contact_number.value = Math.random() * 100000 | 0;
+        var timestamp = new Date().toLocaleString();
+        var formData = new FormData(this);
+      formData.append('timestamp', timestamp);
         emailjs.sendForm("service_3zyprwt", "template_398p23p", this)
           .then(function () {
             console.log('SUCCESS!');
