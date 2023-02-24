@@ -33,7 +33,7 @@
 
   <script src="https://kit.fontawesome.com/8cae91f94f.js" crossorigin="anonymous"></script>
 
-  <script src="./js/main.js"></script>
+  <script src="./js/main.js" defer></script>
 
   <!-- EmailJS -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -90,18 +90,11 @@
               <a href="./js/test.txt" download id="download-link"></a>
             </li>
             <div class="nav-item">
-              <button type="button" onclick="toggleBlackout()" class="btn btn-outline-light btn-lg">Black mode</button>
+              <button type="button" onclick="toggleBlackout()" class="btn btn-lg black_button">Black mode</button>
             </div>
           </ul>
         </div>
       </nav>
-      <!-- <div class="row justify-content-center">
-            <div class="col-lg-4 mb-4">
-                <div class="card p-2">
-                <img onmouseover="dogName()" class="card-img-top w-100" src="https://www.hdnicewallpapers.com/Walls/Big/Dog/Red_Dog_5K_Wallpaper.jpg" alt="Red Dog 5K Wallpaper">
-                </div>
-            </div>
-        </div> -->
       <div class="container-xl container-form mb-5">
         <h2 class="text-center font-weight-bold py-5">Contact form</h2>
         <div class="row justify-content-center mt-4">
@@ -140,31 +133,6 @@
       © Copyright 2023 <a href="./index.html">TinDog</a>
     </div>
   </footer>
-  <script>
-
-    const accessKey = 'YruVMLqlZX3Y27j_ayH4ra-C13cjxa4gWHOxengd8xY'
-
-    const getRandomDogImage = (dogImage) => {
-      const apiUrl = `https://api.unsplash.com/photos/random?query=dogs&orientation=landscape&w=${dogImage.width}&h=${dogImage.height}`
-
-      fetch(apiUrl, {
-        headers: {
-          'Authorization': `Client-ID ${accessKey}`
-        }
-      })
-        .then(response => response.json())
-        .then(data => {
-          const imageUrl = data.urls.regular
-          dogImage.src = imageUrl
-        })
-    }
-
-    const dogImages = document.querySelectorAll('.card-img-top')
-
-    for (const dogImage of dogImages) {
-      dogImage.addEventListener('mouseover', () => getRandomDogImage(dogImage))
-    }
-  </script>
 </body>
 
 </html>

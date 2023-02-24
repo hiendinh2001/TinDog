@@ -157,3 +157,15 @@ h1 {
 .hidden {
     display: none;
 }
+
+.black_button {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+
+.black_button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
