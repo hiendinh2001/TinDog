@@ -1,4 +1,4 @@
-*** English ***
+*** English *** <br />
 Online website: "https://hiendinh2001.github.io/TinDog/"
 
 02/21/2023:
@@ -22,9 +22,9 @@ Online website: "https://hiendinh2001.github.io/TinDog/"
 - Created a "Delete" button for each dog's photo, after clicking this button, all dog's information such as picture, name and price will delete.
 
 - "Download" on the "header", when pressed, it will count down and then download the file.
+<br />
 
-
-*** Français ***
+*** Français *** <br />
 Site Web en ligne : "https://hiendinh2001.github.io/TinDog/"
 
 21/02/2023 :
