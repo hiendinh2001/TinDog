@@ -42,9 +42,9 @@ Site Web en ligne : "https://hiendinh2001.github.io/TinDog/"
 24/02/2023 :
 - Remplacement de "Titre" par un nom personnel.
 - Mise à jour vers la dernière version de Bootstrap.
-- Création d'un bouton "Black Mode" pour qu'on appuie dessus, toutes les pages Web soient noires à l'exception de ce bouton.
+- Création d'un bouton "Black Mode" pour qu'on appuie dessus, toutes les pages Web sont noires à l'exception de ce bouton.
 - Lorsque le bouton "Send" est pressé, "Object", "Message" et "Timestamp" seront envoyés à "Email" entré dans le champ "Email".
-- Lorsque toutes les pages Web sont noires, on re-appuie sur le bouton "Black Mode", la page Web reviendra à son état d'origine.
+- Lorsque toutes les pages Web sont noires, on ré-appuie sur le bouton "Black Mode", la page Web reviendra à son état d'origine.
 - Création d'un bouton "Delete" pour la photo de chaque chien, en cliquant sur ce bouton, il supprimera toutes les informations du chien telles que l'image, le nom et le prix.
 
 - "Download" sur le "header", lorsqu'il est pressé, il comptera à rebours puis téléchargera le fichier.
