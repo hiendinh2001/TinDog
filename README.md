@@ -8,12 +8,12 @@ Online website: "https://hiendinh2001.github.io/TinDog/"
 - Created "Prix" page.
 - When you move the mouse (hover) over each image of the dog, the image (API), the name (random array) and the price (random number from 10 to 100) will change.
 
-02/23/2023
+02/23/2023:
 - Created "Contact" page.
 - When the "Send" button is pressed, "Object" and "Message" will be sent to the "Email" entered in the "Email" field.
 - After pressing the "Send" button => "Email" is sent => the whole input area will be reset => the input field is empty.
 
-02/24/2023
+02/24/2023:
 - Replacement of "Title" by a personal name.
 - Updated to the latest version of Bootstrap.
 - Created a "Black Mode" button to press, all web pages are black except for this button.
@@ -34,12 +34,12 @@ Site Web en ligne : "https://hiendinh2001.github.io/TinDog/"
 - Création de la page "Prix".
 - Lorsqu'on déplace la souris (survol) sur chaque image du chien, l'image (API), le nom (array aléatoire) et le prix (nombre aléatoire de 10 à 100) changeront.
 
-23/02/2023
+23/02/2023 :
 - Création de la page "Contact".
 - Lorsque le bouton "Send" est pressé, "Object" et "Message" seront envoyés au "Email" entré dans le champ "Email".
 - Après avoir appuyé sur le bouton "Send" => "Email" est envoyé => toute la zone de saisie sera réinitialisée => le champ de saisie est vide.
 
-24/02/2023
+24/02/2023 :
 - Remplacement de "Titre" par un nom personnel.
 - Mise à jour vers la dernière version de Bootstrap.
 - Création d'un bouton "Black Mode" pour qu'on appuie dessus, toutes les pages Web soient noires à l'exception de ce bouton.
