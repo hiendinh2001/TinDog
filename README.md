@@ -1,3 +1,30 @@
+*** English ***
+Online website: "https://hiendinh2001.github.io/TinDog/"
+
+02/21/2023:
+- Created "TinDog" homepage with Bootstrap.
+
+02/22/2023:
+- Created "Prix" page.
+- When you move the mouse (hover) over each image of the dog, the image (API), the name (random array) and the price (random number from 10 to 100) will change.
+
+02/23/2023
+- Created "Contact" page.
+- When the "Send" button is pressed, "Object" and "Message" will be sent to the "Email" entered in the "Email" field.
+- After pressing the "Send" button => "Email" is sent => the whole input area will be reset => the input field is empty.
+
+02/24/2023
+- Replacement of "Title" by a personal name.
+- Updated to the latest version of Bootstrap.
+- Created a "Black Mode" button to press, all web pages are black except for this button.
+- When the "Send" button is pressed, "Object", "Message" and "Timestamp" will be sent to "Email" entered in the "Email" field.
+- When all the web pages are black, we re-press the "Black Mode" button, the web page will return to its original state.
+- Created a "Delete" button for each dog's photo, after clicking this button, all dog's information such as picture, name and price will delete.
+
+- "Download" on the "header", when pressed, it will count down and then download the file.
+
+
+*** Français ***
 Site Web en ligne : "https://hiendinh2001.github.io/TinDog/"
 
 21/02/2023 :
